@@ -38,20 +38,20 @@ npm or yarn package manager
 
 📦 Installation
 1. **Clone the repository**
-   ```bash
    git clone <(https://github.com/PLP-MERN-Stack-Development/real-time-communication-with-socket-io-Kavush.git)>
    cd socketio-chat
-2. Setup Server
+   
+3. Setup Server
 cd server
 npm install
 npm run dev
 
-3. Setup Client
+4. Setup Client
 cd client
 npm install
 npm run dev
 
-4. Access the Application
+5. Access the Application
 Client: http://localhost:5173
 Server: http://localhost:5000
 
@@ -71,12 +71,17 @@ Server: http://localhost:5000
 
 🔌 Socket Events
 🧠 Client → Server
-user_join - Join chat with username
-send_message - Send message to room
-private_message - Send private message
-typing - Typing indicator
-join_room - Join specific room
-update_status - Update user status
+ user_join - Join chat with username
+ 
+ send_message - Send message to room
+ 
+ private_message - Send private message
+ 
+ typing - Typing indicator
+ 
+ join_room - Join specific room
+ 
+ update_status - Update user status
 
 ⚡ Server → Client
 receive_message - Receive new message
@@ -155,6 +160,7 @@ Task 4: Real-Time Notifications
 
 Task 5: Performance and UX Optimization
 
+
 🎨 Technologies Used
 Frontend: React, Vite, Socket.io-client
 
@@ -167,6 +173,7 @@ Real-time Communication: Socket.io
 
 📄 License
 MIT License - feel free to use this project for learning and development purposes.
+
 
 👨‍💻 Author
 Esther Alfred
