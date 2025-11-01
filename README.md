@@ -39,7 +39,7 @@ npm or yarn package manager
 📦 Installation
 1. **Clone the repository**
    ```bash
-   git clone <real-time-communication-with-socket-io-Kavush>
+   git clone <(https://github.com/PLP-MERN-Stack-Development/real-time-communication-with-socket-io-Kavush.git)>
    cd socketio-chat
 2. Setup Server
 cd server
