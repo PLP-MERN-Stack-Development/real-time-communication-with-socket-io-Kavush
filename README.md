@@ -1,6 +1,6 @@
-# Real-Time Chat Application with Socket.io
+💬 Real-Time Chat Application with Socket.io
 
-A fully-featured real-time chat application built with React, Node.js, and Socket.io.
+A fully-featured real-time chat application built with React, Node.js, and Socket.io — enabling seamless communication with advanced real-time features.
 
 ## 🚀 Features
 
@@ -29,32 +29,34 @@ A fully-featured real-time chat application built with React, Node.js, and Socke
 - ✅ Auto-scroll to new messages
 - ✅ Connection status indicators
 
-## 🛠️ Setup Instructions
+🛠️ Setup Instructions
+🔧 Prerequisites
 
-### Prerequisites
-- Node.js v18 or higher
-- npm or yarn
+Node.js v18 or higher
 
-### Installation
+npm or yarn package manager
 
+📦 Installation
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
+   git clone <(https://github.com/PLP-MERN-Stack-Development/real-time-communication-with-socket-io-Kavush.git)>
    cd socketio-chat
 2. Setup Server
 cd server
 npm install
 npm run dev
+
 3. Setup Client
 cd client
 npm install
 npm run dev
+
 4. Access the Application
 Client: http://localhost:5173
 Server: http://localhost:5000
 
 📁 Project Structure
-socketio-chat/
+ ```socketio-chat/
 ├── client/                 # React frontend
 │   ├── src/
 │   │   ├── components/     # React components
@@ -65,9 +67,10 @@ socketio-chat/
 │   ├── server.js           # Main server file
 │   └── package.json
 └── README.md
+ ```
 
 🔌 Socket Events
-Client to Server
+🧠 Client → Server
 user_join - Join chat with username
 send_message - Send message to room
 private_message - Send private message
@@ -75,7 +78,7 @@ typing - Typing indicator
 join_room - Join specific room
 update_status - Update user status
 
-Server to Client
+⚡ Server → Client
 receive_message - Receive new message
 
 private_message - Receive private message
@@ -92,14 +95,14 @@ available_rooms - List of available rooms
 
 room_joined - Room join confirmation
 
-🎯 API Endpoints
-GET /api/messages - Get room messages
+🌐 API Endpoints
+| Method | Endpoint        | Description           |
+| :----: | :-------------- | :-------------------- |
+|   GET  | `/api/messages` | Get room messages     |
+|   GET  | `/api/users`    | Get online users      |
+|   GET  | `/api/rooms`    | Get available rooms   |
+|   GET  | `/api/stats`    | Get server statistics |
 
-GET /api/users - Get online users
-
-GET /api/rooms - Get available rooms
-
-GET /api/stats - Get server statistics
 
 🚀 Deployment
 Server Deployment (Render/Railway)
@@ -113,19 +116,21 @@ Server Deployment (Render/Railway)
 
 5. Add environment variables
 
-Client Deployment (Vercel/Netlify)
-1. Build client: npm run build
+💻Client Deployment (Vercel/Netlify)
+1. Build client app:
+   npm run build
 
 2. Connect repository to deployment service
 
-3. Set build command: npm run build
+3. Build command: npm run build
 
-4. Set output directory: dist
+4. Output directory: dist
 
 🔧 Environment Variables
 Server (.env)
 PORT=5000
 CLIENT_URL=http://localhost:5173
+
 
 Client (.env)
 VITE_SOCKET_URL=http://localhost:5000
